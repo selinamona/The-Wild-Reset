@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/LvlTheWildBack.unity
+    guid: b5628d8514bb4a647818cca4fec3f264
+  - enabled: 1
+    path: Assets/RepasoRPMI3EVA/Scenes/WinScene.unity
+    guid: a140016ab2c18a84ea8b3255b60b90d7
+  - enabled: 1
+    path: Assets/RepasoRPMI3EVA/Scenes/LoseScene.unity
+    guid: 7db0cea24f2c39247a3b82a165e0cd56
+  - enabled: 0
     path: Assets/Scenes/SCNprueba_particles.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
