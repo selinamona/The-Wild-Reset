@@ -13,7 +13,7 @@ public class EnemyDamage : MonoBehaviour
     [SerializeField] Material damaged;
     [SerializeField] float feedbackTime;
     [SerializeField] GameObject deathEffect;
-    GameObject model; //Ref al objeto que contiene el mesh del personaje (solo en caso de que el mesh vaya aparte del código)
+    GameObject model; //Ref al objeto que contiene el mesh del personaje (solo en caso de que el mesh vaya aparte del cï¿½digo)
     MeshRenderer modelRend; //Ref al meshRenderer del objeto con modelado (permite acceder a su material)
 
     // Start is called before the first frame update
@@ -43,8 +43,8 @@ public class EnemyDamage : MonoBehaviour
 
     public void TakeDamage(int damageToTake)
     {
-        //Aquí cabe codear cualquier efecto de recibir daño que se desee
-        modelRend.material = damaged; //FEEDBACK DE RECIBIR DAÑO (EN ESTE CASO CAMBIO DE COLOR)
+        //Aquï¿½ cabe codear cualquier efecto de recibir daï¿½o que se desee
+        modelRend.material = damaged; //FEEDBACK DE RECIBIR DAï¿½O (EN ESTE CASO CAMBIO DE COLOR)
         health -= damageToTake;
         Invoke(nameof(ResetMaterial), feedbackTime);
     }
